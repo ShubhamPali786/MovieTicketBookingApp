@@ -1,0 +1,16 @@
+.header_container{
+    display: flex;
+    /* height: 2em; */
+    background-color: #333545;
+    box-shadow: 0 3px 2px #d6c3c3;
+    color: white;
+  
+}
+
+.header_container__content {
+    width: 90%;
+}
+.header_container__content h2{
+    margin: 0 auto;
+    margin-top: .3em;
+}

@@ -1,0 +1,49 @@
+
+.finalbooking_ctn{
+    margin: 0 auto;
+    margin-top: 2em;
+    width: 90%;
+}
+
+.bookingdetails_ctn{
+    background-color: white;
+    display: flex;
+    margin-top: 1em;
+}
+.bookingconfirm{
+    background-color: #E1F0D9;
+    color: #4DA682;
+    display: flex;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.bookingconfirm h2{
+    margin: 0;
+}
+.bookingdetails_ctn_qrcode{
+    margin-top: 2em;
+    margin-right: 1em
+
+}
+
+.bookingdetails_ctn_img{
+    height: 20em;
+    margin: 1em;
+    width: 13em;
+}
+.bookingdetails_ctn_img img{
+    height: inherit;
+    width: 100%;
+}
+.bookingdetails_ctn_detail{
+    width: 65%;
+}
+.showtime{
+    color: #7d8088;
+    font-size: larger;
+}
+.showtime_date{
+    padding-left: 7px;
+    border-left: 1px solid;
+    margin-left: 7px;
+}

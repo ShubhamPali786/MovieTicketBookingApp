@@ -1,0 +1,127 @@
+.moviedetail{
+
+}
+.moviedetail__imgbanner_container{
+    height: 20em;
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+    transition: all .5s ease;
+}
+.moviedetail__imgbanner{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: block;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
+}
+.moviedetail__imgbanner_overlay{
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all .5s ease;
+    background: rgba(0,0,0,.8);
+}
+.moviedetail_details{
+    display: flex;
+    position: relative;
+    top: -13em;
+}
+.moviedetail_details_img_cotainer{
+    height: 20em;
+    margin-left: 1em;
+    width: 13em;
+    transition: all .5s ease;
+    
+}
+.moviedetail_details_img_cotainer img{
+    height: inherit;
+    width: 100%;
+    min-height: 20em;
+    min-width: 13em;
+    transition: all .5s ease;
+}
+.moviedetail_details_container{
+    color: white;
+    margin-left: 1em;
+    width: 60%;
+}
+
+.moviedetail_details_container_certificate{
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 3px;
+    font-size: 1em;
+}
+.moviedetail_details_container_lang{
+    padding: 3px;
+    margin-left: 5px;
+    border: 2px solid transparent;
+    font-size: 1em;
+    font-weight: bold;
+}
+.moviedetail_details_container_lang p{
+    margin: 0;
+}
+.moviedetail_details_container_genre{
+    margin: 0;
+    padding: 3px;
+    border: 2px solid;
+    border-radius: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    text-align: center;
+    margin-right: 1.5em;
+}
+.moviedetail_details_container_genre p{
+    margin: 0;
+}
+.moviedetail_details_container__releaseinfo{
+    padding: 3px;
+    margin-right: 1.5em;
+}
+.moviedetail_details_container__releaseinfo span{
+    margin-left: .5em;
+}
+.moviedetail_details_container_synosis{
+    color: black;
+    margin-top: 2em;
+}
+.moviedetail_details_container_synosis p{
+    text-align: justify;
+    font-family: serif;
+    color: #655454;
+}
+.moviedetail_details_booknow_ctn{
+    margin-top: 15em;
+    width: 20%;
+    margin-left: 1em
+}
+
+.moviedetail_details_booknow_ctn_booknow{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #0078FF;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.moviedetail_details_booknow_ctn_booknow:hover{
+    background-color: #0060cc;
+}
+.moviedetail_details_booknow_ctn_booknow span{
+
+}

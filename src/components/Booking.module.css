@@ -1,0 +1,110 @@
+.book_ctn__bookingdetails{
+    background-color: #1F2533;
+    color: #ffff;
+    padding-top: 3em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+}
+.book_ctn__bookingdetails h1{
+    margin-bottom: 0;
+}
+.book_ctn__bookingdetails__adddetails{
+    display: flex;
+    margin-top: 5px;
+}
+.book_ctn__bookingdetails__adddetails p{
+    margin: 0;
+}
+.book_ctn__bookingdetails__adddetails__certificate{
+    border: 2px solid;
+    border-radius: 50%;
+    padding: 3px;
+}
+.book_ctn__bookingdetails__adddetails__genre{
+    display: flex;
+    color: #7d8088;
+}
+.book_ctn__bookingdetails__adddetails__genre p{
+    border: 1px solid;
+    border-radius: 9px;
+    padding: 3px;
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    margin-left: 1em !important
+}
+.book_ctn__bookingdetails__adddetails__releasedate{
+    padding: 5px;
+    margin-left: 1em;
+}
+.book_ctn__bookingdetails__adddetails__duration{
+    padding: 5px;
+    display: flex;
+}
+.book_ctn__bookingdetails__adddetails__duration p{
+    margin-left: 5px;
+}
+.book_ctn__bookingdetails__timings{
+    display: flex;
+    background-color: white;
+    padding-top: .4em;
+    padding-bottom: .4em;
+}
+.book_ctn__bookingdetails__timings_showtiming{
+    
+    margin-left: 1em;
+    border-radius: 5px;
+   
+    text-align: center;
+    width: 5%;
+}
+.book_ctn__bookingdetails__timings_showtiming:hover{
+    background-color: #0378FF;
+    color: white;
+}
+.book_ctn__bookingdetails__timings_showtiming_selected{
+    background-color: #0378FF;
+    color: white;
+}
+.book_ctn__bookingdetails__timings_showtiming p{
+    margin: 0;
+    cursor: pointer;
+}
+.book_ctn__bookingdetails__bookingform_ctn{
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 1em;
+    width: 98%;
+    border: 2px solid #eee;
+}
+.book_ctn__bookingdetails__bookingform_ctn h3{
+    margin-bottom: 0;
+    padding-top: 5px;
+    margin-left: 1em;
+}
+.book_ctn__bookingdetails__bookingform_ctn__showtimings{
+    display: flex;
+}
+.book_ctn__bookingdetails__bookingform_ctn__showtimings p{
+    padding: 8px;
+    text-align: center;
+    margin-left: 1em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.book_ctn__bookingdetails__bookingform_ctn__booknow{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: #0078FF;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+.book_ctn__bookingdetails__bookingform_ctn__booknow:hover{
+    background-color: #0060cc;
+
+}
